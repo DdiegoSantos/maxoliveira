@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Oxygen&display=swap');
+
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+
+}
+
+section {
+    padding: 5px 0;
+
+}
+
+#perfil {
+    width: 300px;
+    background-image: url('imagem/fundo.png');
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 10px;
+    height: 100%;
+}
+
+#foto img {
+    display: flex;
+    height: 100%;
+    margin: auto;
+    border-radius: 100%;
+}
+
+#foto {
+    margin: 5px auto 5px auto;
+    height: 200px;
+
+}
+
+#dados {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    margin: 5px auto 25px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 0px;
+    
+}
+
+
+#dados p {
+    font-size: 14px;
+    padding: 0;
+    width: 80%;
+    margin: auto;
+    color: #333;
+    font-weight: 800;
+    display: none;
+}
+#butom{
+    cursor: pointer;
+}
+ #dados  #fec{
+    color: #333;
+    margin: 20px 0 0 10px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#titulo h1 {
+    font-size: 19px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+#titulo h1 span {
+    font-size: 12px;
+    margin: auto;
+}
+
+#corpo {
+    
+    margin: auto;
+    height: 100%;
+}
+
+#box_corpo {
+    
+    display: flex;
+    height: 100%;
+}
+
+h2 {
+    color: #333;
+    background-color: #cecece;
+    padding: 5px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+p {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+li {
+    font-size: clamp(6px, 1vw, 18px);
+}
+
+#informacoes {
+    display: block;
+    color: #333;
+
+}
+
+#informacoes h1 {
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    width: 40px;
+    padding-left: 15px;
+}
+
+#habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /*border: #333 solid;*/
+}
+
+#habilidades img {
+    
+    margin: 10px auto;
+}
+
+#habilidades p{
+    
+    font-size: 10px;
+    
+ 
+}
+#habilidades div{
+    text-align: center;
+}
+.descri {
+
+    max-width: 400px;
+}
+
+#dados0,
+#dados1,
+#dados2,
+#dados3,
+#dados4 {
+    display: none;
+    background-color: #fff;
+}
+
+
+#img_objet0,
+#img_objet1,
+#img_objet2,
+#img_objet3,
+#img_objet4 {
+    cursor: pointer;
+}
+#b-describe{
+    display: flex;
+    
+    width: 100%;
+}
+ 
